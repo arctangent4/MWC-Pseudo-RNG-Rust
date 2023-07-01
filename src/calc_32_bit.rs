@@ -56,7 +56,7 @@ pub fn mwc_calc_32_bit(init_x: u32, a: u32, base_val: u32, init_carry_c: u32, la
 //COMPLEMENTARY MWC 32 BIT GENERATOR
 
 pub fn cmwc_calc_32_bit(init_x: u32, a: u32, base_val: u32, init_carry_c: u32, lag: u32, num_calcs: u32) {
-    println!("cmwc_64_bit function used.\n");
+    println!("cmwc_32_bit function used.\n");
     // Converting types and Initialization
     //Generator Parameters
     let mut x_next: u32 = init_carry_c as u32;
